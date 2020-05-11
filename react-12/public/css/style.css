@@ -1,0 +1,32 @@
+.header{
+    padding: 4%;
+    margin-bottom: -6%;
+}
+.header__logo{
+    width: 40%;
+}
+
+.header__direct{
+    float: right;
+}
+
+.content{
+    background-color: #f5f6fa;
+}
+
+.content__story_item_visualizado{
+    width: 56px;
+	height: 56px;
+	margin: 0 4px 4px 4px;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-size: cover;
+}
+.content__story_item_naovisualizado{
+    width: 56px;
+	height: 56px;
+	margin: 0 4px 4px 4px;
+	border-radius: 50%;
+	border: 1px solid #ea3eea;
+	background-size: cover;
+}
