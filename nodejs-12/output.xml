@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="4" time="2.531">
+  <testsuite name="Get Shopping Cart" errors="0" failures="4" skipped="0" timestamp="2020-05-12T17:31:17" time="1.102" tests="4">
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 1" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 1" time="0.017">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+@@ -1,7 +1,7 @@
+  Object {
+-   &quot;discount&quot;: &quot;15.63%&quot;,
++   &quot;discountPercentage&quot;: &quot;15.63%&quot;,
+    &quot;discountValue&quot;: &quot;75.00&quot;,
+    &quot;products&quot;: Array [
+      Object {
+        &quot;category&quot;: &quot;T-SHIRTS&quot;,
+        &quot;name&quot;: &quot;DISNEY CRUELLA© T-SHIRT&quot;,
+    at Object.it (C:\Users\Italo\codenation\nodejs-12\test\index.test.js:62:16)
+    at Object.asyncJestTest (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at resolve (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:45:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at promise.then (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:75:41)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 2" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 2" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+@@ -1,7 +1,7 @@
+  Object {
+-   &quot;discount&quot;: &quot;4.72%&quot;,
++   &quot;discountPercentage&quot;: &quot;4.72%&quot;,
+    &quot;discountValue&quot;: &quot;25.00&quot;,
+    &quot;products&quot;: Array [
+      Object {
+        &quot;category&quot;: &quot;T-SHIRTS&quot;,
+        &quot;name&quot;: &quot;RUBBERIZED PRINTED T-SHIRT&quot;,
+    at Object.it (C:\Users\Italo\codenation\nodejs-12\test\index.test.js:68:16)
+    at Object.asyncJestTest (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at resolve (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:45:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at promise.then (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:75:41)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 3" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 3" time="0.001">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+@@ -1,7 +1,7 @@
+  Object {
+-   &quot;discount&quot;: &quot;1.87%&quot;,
++   &quot;discountPercentage&quot;: &quot;1.87%&quot;,
+    &quot;discountValue&quot;: &quot;10.00&quot;,
+    &quot;products&quot;: Array [
+      Object {
+        &quot;category&quot;: &quot;T-SHIRTS&quot;,
+        &quot;name&quot;: &quot;PINK PANTHER™ T-SHIRT&quot;,
+    at Object.it (C:\Users\Italo\codenation\nodejs-12\test\index.test.js:74:16)
+    at Object.asyncJestTest (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at resolve (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:45:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at promise.then (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:75:41)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+    <testcase classname="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 4" name="Get Shopping Cart Deve retornar um carrinho de compras a partir do array de IDs do exemplo 4" time="0.003">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+- Expected  - 1
++ Received  + 1
+
+@@ -1,7 +1,7 @@
+  Object {
+-   &quot;discount&quot;: &quot;14.21%&quot;,
++   &quot;discountPercentage&quot;: &quot;14.21%&quot;,
+    &quot;discountValue&quot;: &quot;130.00&quot;,
+    &quot;products&quot;: Array [
+      Object {
+        &quot;category&quot;: &quot;T-SHIRTS&quot;,
+        &quot;name&quot;: &quot;PINK PANTHER™ T-SHIRT&quot;,
+    at Object.it (C:\Users\Italo\codenation\nodejs-12\test\index.test.js:80:16)
+    at Object.asyncJestTest (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:100:37)
+    at resolve (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:45:12)
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at promise.then (C:\Users\Italo\codenation\nodejs-12\node_modules\jest-jasmine2\build\queueRunner.js:75:41)
+    at &lt;anonymous&gt;</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
